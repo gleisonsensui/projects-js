@@ -2,13 +2,39 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Sixtyfour', sans-serif;
+    font-family: 'Press Start 2P', system-ui;
+}
+
+body {
+    background-color: #333;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 
+.clock {
+    margin: auto 0; /* Centralizar a DIV no centro do container */
+    display: flex; /* Alinhar no centro*/
+    align-items: center; /*Alinhar no centro em conjunto com o display flex*/
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    height: 50%;
+}
 
 
-
+.clock span {
+    margin-right: 0.5rem;
+}
 
 
 
